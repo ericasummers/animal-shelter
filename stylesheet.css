@@ -17,6 +17,8 @@ p {
 .column p {
   font-style: italic;
   color: blue;
+  max-width: 250px;
+  margin-top: 0px;
 }
 
 .column h3 {
@@ -27,6 +29,8 @@ p {
 .column img {
   border: 2px solid green;
   width: 250px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 @media screen and (max-width: 1300px) {
