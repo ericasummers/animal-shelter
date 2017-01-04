@@ -28,3 +28,24 @@ p {
   border: 2px solid green;
   width: 250px;
 }
+
+@media screen and (max-width: 1300px) {
+  body {
+    text-align: center;
+  }
+  .column {
+    clear: left;
+  }
+  #holder {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  #holder h3 {
+    width: 250px;
+    text-align: center;
+  }
+  #holder p {
+    width: 250px;
+  }
+}
